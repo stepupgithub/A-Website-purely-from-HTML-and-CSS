@@ -67,8 +67,8 @@ nav div a:hover{
 }
 
 header nav a{
-		text-decoration: none;
-		color: #ffffff;
+	text-decoration: none;
+	color: #ffffff;
 }
 
 header h1{
@@ -109,32 +109,32 @@ footer{
 {
 	header
 	{
-	box-sizing: border-box;
-	display: inline-block;
-	min-height: 100vh;
-	padding: 60vw 0 5vw;
-	position: relative;
-	transform-style: inherit;
-	width: 100vw;
+		box-sizing: border-box;
+		display: inline-block;
+		min-height: 100vh;
+		padding: 60vw 0 5vw;
+		position: relative;
+		transform-style: inherit;
+		width: 100vw;
 	}
 
 	header nav a div
 	{
-	display: inline-block;
-	transition-property: background-color,border-radius,color,transform;
-	transition-duration: 0.4s;
-	transition-timing-function: linear;
-	transition-delay: 0.1s;
+		display: inline-block;
+		transition-property: background-color,border-radius,color,transform;
+		transition-duration: 0.4s;
+		transition-timing-function: linear;
+		transition-delay: 0.1s;
 	}
 
 	header nav a div:hover
 	{
-	transform: scale(2) rotate(360deg);
+		transform: scale(2) rotate(360deg);
 	}
 
 	header div a i:hover
 	{
-	transform: scale(3);		
+		transform: scale(3);		
 	}
 
 	div a
@@ -144,6 +144,7 @@ footer{
 
 	#hide
 	{
-	display: block;
+		display: block;
 	}
 }
+
