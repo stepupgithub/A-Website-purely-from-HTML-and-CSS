@@ -57,15 +57,12 @@ header *{
 	padding: 1em 0;
 }
 
-header nav a div{
+nav div a{
 	font-size: 200%;
-	transition-property: background-color,border-radius,color,transform;
-	transition-duration: 0.1s;
-	transition-timing-function: linear;
-	transition-delay: 0.1s;
+	transition: 0.5s ease all
 }
 
-header nav a div:hover{
+nav div a:hover{
 	transform: scale(1.5);
 }
 
@@ -150,3 +147,4 @@ footer{
 		display: block;
 	}
 }
+
