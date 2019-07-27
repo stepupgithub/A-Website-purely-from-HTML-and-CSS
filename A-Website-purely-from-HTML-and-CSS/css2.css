@@ -1,0 +1,416 @@
+body{
+	background-image: url(images/pic2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100vw;
+	height: 100vh;
+}
+
+header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 10%;
+	background-color: transparent;
+}
+
+header nav a{
+	text-decoration: none;
+	background-color: #00000045;
+	color: #fff;
+	float: right;
+	font-size: 200%;
+	transition-property: background-color,border-radius,color,transform;
+	transition-duration: 0.1s;
+	transition-timing-function: linear;
+	transition-delay: 0.1s;
+}
+
+header nav a:hover{
+	transform: scale(1.5);
+}
+
+header nav a div i{
+	background-color: #00000045;
+}
+
+header nav a div i:hover{
+	transform: scale(1);
+}
+
+header nav a div{
+	background-color: #00000045;
+}
+
+h1{
+	padding-top: 60px;
+	width: 80%;
+	float: right;
+	position: relative;
+	text-align: center;
+	color: #63231e;
+}
+
+
+h2{
+	font-family: serif;
+	transition-property: background-color,border-radius,color,transform;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+	transition-delay: 0.1s;
+}
+
+h2:hover{
+	transform: scale(1.2);
+	color: green;
+}
+
+section{
+	width: 65%;
+	float: right;
+	margin-right: 50px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: #00000045;
+	clear: both;
+	color: #fff;
+	height: 8%;
+}
+
+footer div a i{
+	color: #fff;
+	transition-property: background-color,border-radius,color,transform;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	transition-delay: 0.1s;
+}
+
+footer div a i:hover{
+	transform: scale(1.5);
+}
+
+h1{
+	font-family: cursive;
+}
+
+
+div{
+	font-family: cursive;
+	background: rgba(255,255,255,0.2); 
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+img{
+	width: 35%;
+	height: 40%;
+	padding: 30px;
+	transition-property: background-color,border-radius,color,transform;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+	transition-delay: 0.1s;
+}
+
+img:hover{
+	transform: rotate(360deg) scale(2);
+}
+
+#left{
+	float: left;
+	width: 15%;
+	color: #fff;
+	background-color: #000;
+	font-family: monospace;
+	padding-top: 15px; 
+}
+
+#right{
+	padding-top: 5px;
+	float: right;
+	width: 15%;
+	color: #fff;
+	background-color: #000;
+}
+
+#div_food{
+	padding-bottom: 70px;
+}
+
+#fs_menu{
+	float: left;
+}
+
+#map{
+	width: 90%;
+	height: 500px;
+}
+
+section div iframe
+{
+	border: 1px dotted black; 
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+
+}
+
+#i_right{
+	float: right;
+	padding-right: 100px;
+	padding-top: 75px;
+	padding-left: 50px;
+}
+
+#last_sec{
+	padding-bottom: 125px;
+	padding-left: 100px;
+	padding-top: 80px; 
+	padding-right: 35px;
+	margin-right: 15px;
+}
+
+#legend{
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 200%;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 900px)
+{
+body{
+	background-image: url(images/pic11.jpg);
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+	clear: both;
+}
+
+header{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 20%;
+	background-color: transparent;
+	position: absolute;
+	display: block;
+}
+
+header nav a{
+	text-decoration: none;
+	background-color: transparent;
+	color: #fff;
+	float: right;
+	display: block;
+	font-size: 200%;
+	transition-property: background-color,border-radius,color,transform;
+	transition-duration: 0.1s;
+	transition-timing-function: linear;
+	transition-delay: 0.1s;
+	clear: both;
+	position: absolute;
+	display: block;
+}
+
+header nav a:hover{
+	transform: scale(1.5);
+}
+
+header nav a div i{
+	background-color: transparent;
+	display: block;
+	clear: both;
+	position: absolute;
+	display: block;
+}
+
+header nav a div i:hover{
+	transform: scale(1);
+}
+
+header nav a div{
+	background-color: transparent;
+	display: block;
+	clear: both;
+	position: absolute;
+	display: block;
+}
+
+h1{
+	padding-top: 40px;
+	width: 100%;
+	float: right;
+	position: relative;
+	text-align: center;
+	color: #63231e;
+	font-size: 300%;
+	text-orientation: upright;
+}
+
+
+h2{
+	font-family: cursive;
+	transition-property: background-color,border-radius,color,transform;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+	transition-delay: 0.1s;
+}
+
+h2:hover{
+	transform: scale(2);
+	color: green;
+}
+
+section{
+	width: 100%;
+	float: left;
+	margin: 50px;
+
+}
+
+footer{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: transparent;
+	clear: both;
+	color: #fff;
+	height: 10%;
+}
+
+footer div a i{
+	color: #000;
+	transition-property: background-color,border-radius,color,transform;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	transition-delay: 0.1s;
+}
+
+footer div a i:hover{
+	transform: scale(2);
+}
+
+footer div a{
+	font-size: 150%;
+}
+
+h1{
+	font-family: cursive;
+}
+
+
+div{
+	font-family: cursive;
+	background: rgba(255,255,255,0.2); 
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+img{
+	width: 35%;
+	height: 40%;
+	padding: 30px;
+	transition-property: background-color,border-radius,color,transform;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+	transition-delay: 0.1s;
+}
+
+img:hover{
+	transform: rotate(360deg) scale(2);
+}
+
+#left{
+	float: left;
+	width: 15%;
+	color: #000;
+	background-color: transparent;
+	font-family: monospace;
+	padding-top: 15px; 
+	position: relative;
+	bottom: 5px;
+}
+
+#right{
+	position: relative;
+	padding-top: 5px;
+	float: right;
+	width: 40%;
+	color: #000;
+	background-color: transparent;
+	bottom: 35px;
+}
+
+#div_food{
+	padding-bottom: 70px;
+}
+
+#fs_menu{
+	float: left;
+	display: none;
+}
+
+section div iframe
+{
+	border: 1px dotted black; 
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+
+}
+
+#i_right{
+	float: right;
+	padding-right: 100px;
+	padding-top: 75px;
+	padding-left: 50px;
+}
+
+#last_sec{
+	padding-bottom: 125px;
+	padding-left: 0px;
+	padding-top: 80px; 
+	padding-right: 35px;
+	margin-right: 15px;
+}
+
+#legend{
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 200%;
+	padding-bottom: 20px;
+	padding-right: 40px;
+}
+
+header nav a div{
+	display: block;
+}
+
+#a1{
+	position: absolute;
+	left: 0%;
+}
+
+#a2{
+position: absolute;
+left: 30%;
+}
+
+#a3{
+position: absolute;
+left: 60%;
+}
+
+}
+
