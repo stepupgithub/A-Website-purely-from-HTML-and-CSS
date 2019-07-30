@@ -63,7 +63,7 @@ nav div a{
 }
 
 nav div a:hover{
-	transform: scale(1.5);
+	font-size: 300%;
 }
 
 header nav a{
